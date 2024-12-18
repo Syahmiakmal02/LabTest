@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SISTEM SEMAKAN KELAYAKAN MENYERTAI PASUKAN BOLA TAMPAR SEKOLAH</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imgs/smk-pc-logo.jpeg" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <h1>SISTEM SEMAKAN KELAYAKAN MENYERTAI PASUKAN BOLA TAMPAR SEKOLAH</h1>
+        <div class="image-placeholder">
+            <img src="imgs/smk-pc-logo.jpeg" alt="Team Logo Placeholder">
+        </div>
+        <form id="dataForm">
+            <label for="nama">Nama Penuh:</label>
+            <input type="text" id="nama" name="nama" placeholder="Nama Penuh anda..." required> <br>
+
+            <label for="tinggi">Tinggi (meter)</label>
+            <input type="text" id="tinggi" name="tinggi" placeholder="Tinggi anda (unit meter)..." required> <br>
+
+            <label for="berat">Berat (Kilogram)</label>
+            <input type="text" id="berat" name="berat" placeholder="Berat anda (unit KG)" required><br>
+
+            <label for="dob">Tarikh Lahir</label>
+            <input type="date" id="dob" name="dob" required>
+
+            <div class="jantina-container">
+                <input type="radio" id="lelaki" name="jantina" value="Lelaki">
+                <label for="lelaki">Lelaki</label> 
+            
+                <input type="radio" id="perempuan" name="jantina" value="Perempuan">
+                <label for="perempuan">Perempuan</label>
+            </div>
+
+            <button type="button" id="submitButton">Hantar</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+<footer>
+    <div>
+        <p>Syahmi Akmal</p>
+        <p>D20221101856</p>
+        <p>Group C</p>
+        <p>A241-DTD3033</p>
+    </div>
+</footer>
+
+</html>
