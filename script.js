@@ -37,7 +37,7 @@ document.getElementById("submitButton").addEventListener("click", function() {
 
     // Determine eligibility
     var eligibility;
-    if (height > 1.35 && status.trim().toLowerCase() === "normal") {
+    if (height > 1.35 && status.trim().toLowerCase() === "normal" && age >= 13 && age < 17) {
         if (gender === "Lelaki") {
             eligibility = "Tahniah anda layak untuk menyertai pasukan bola tampar lelaki";
         } else if (gender === "Perempuan") {
